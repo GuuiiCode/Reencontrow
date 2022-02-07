@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Oswald', sans-serif;
+    background-color: #15161b;
+}
+
+.logo {
+    margin-top: 60px;
+    text-align: center; 
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logo span {
+    color: #1a7993;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 197px;
+}
+
+.conteudo-principal-info {
+    width: 433px;  
+    color: #fff; 
+    margin-left: 52px;
+}
+
+.conteudo-principal-info p {
+    font-size: 23px;
+}
+
+.conteudo-principal-info h1 {
+    font-size: 58px; 
+    line-height: 1.1;
+}
+
+.conteudo-principal-info button { 
+    font-size: 23px; 
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #1A7993;
+    color: #fff;
+    padding: 25px 45px;
+    margin-top: 45px;
+}
+
+.conteudo-principal-info button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.imagem {
+    width: 585px; 
+    margin-left: 90px;
+}
+
+.assuntos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 197px; 
+    color: #fff; 
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    gap: 50px;  
+    margin-top: 90px;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2F37;
+    width: 218px;
+    height: 208px;
+    border-radius: 3px; 
+}
+
+.card:hover {
+    background-color: #1A7993;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.card img {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.card p { 
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.conteudo-secundario { 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1A7993;
+    margin-top: 300px; 
+    height: 500px;
+    color: #fff; 
+}
+
+.conteudo-secundario-info {
+    margin-top: 50px; 
+}
+
+.conteudo-secundario-info h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 1.2;
+    width: 550px;
+}
+
+.conteudo-secundario-info p { 
+    font-size: 30px;
+    width: 510px;
+    margin-top: 15px;
+}
+
+.conteudo-secundario-info button { 
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none; 
+    border-radius: 3px;
+    color: #000; 
+    background-color: #FAFBFF;
+    padding: 30px 90px;
+    margin-top: 45px;
+}
+
+.conteudo-secundario-info button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.conteudo-secundario img {
+    width: 426px;
+    height: 500px; 
+}
+
+.contato { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    color: #fff; 
+}
+
+.contato h2 {  
+    text-align: center;
+    width: 515px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.contato form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;  
+    gap: 25px;  
+    margin-top: 50px; 
+}
+
+.contato form input {
+    padding: 25px 0 25px 15px; 
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: #3E444D;  
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+.contato form input::placeholder {
+    text-transform: uppercase;
+}
+
+.contato form input[type="submit"] {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1A7993;
+    text-transform: uppercase; 
+}
+
+.contato form input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.redes-sociais {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 180px;
+    margin-bottom: 130px;
+    gap: 20px;
+}
+
+.redes-sociais p {
+    font-size: 28px;
+}
+ 
+.icones img {
+    width: 40px;
+    margin: 0 10px;
+}
